@@ -1,0 +1,28 @@
+{
+  "name": "node-api",
+  "version": "1.0.0",
+  "description": "Skillshare cours 1",
+  "main": "server.js",
+  "scripts": {
+    "start": "node start server.js",
+    "dev": "nodemon server.js",
+    "_comment": "Using nodemon to enable live changes."
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/joi": "^17.0.2",
+    "bcrypt": "^3.0.7",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.8.7",
+    "password-crypt": "^2.0.0",
+    "swagger-ui-express": "^4.1.2",
+    "yamljs": "^0.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
